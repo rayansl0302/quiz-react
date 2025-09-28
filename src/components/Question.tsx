@@ -60,7 +60,10 @@ const Question: React.FC<QuestionProps> = ({
             <div className="question-theme">{question.tema}</div>
           </div>
         </div>
-        <h2 className="question-text">{question.pergunta}</h2>
+        <h2 
+          className="question-text" 
+          dangerouslySetInnerHTML={{ __html: question.pergunta }}
+        />
         
         <div className="options-container">
           {question.opcoes.map((opcao, index) => (

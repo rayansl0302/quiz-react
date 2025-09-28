@@ -987,7 +987,7 @@ export const quizData: QuizData = {
     },
     {
       "id": 71,
-      "pergunta": "Analise as afirmações sobre o Modelo Entidade-Relacionamento (MER):\n\nI. Uma entidade fraca depende de uma entidade forte para existir e sua chave primária inclui a chave da entidade forte.\nII. Relacionamentos do tipo 1:N devem ser representados com chave estrangeira no lado \"N\".\nIII. Atributos multivalorados devem sempre ser transformados em entidades no esquema relacional.\n\nAssinale a alternativa correta:",
+      "pergunta": "<p><strong>Analise as afirmações sobre o Modelo Entidade-Relacionamento (MER):</strong></p><p><strong>I.</strong> Uma entidade fraca depende de uma entidade forte para existir e sua chave primária inclui a chave da entidade forte.</p><p><strong>II.</strong> Relacionamentos do tipo 1:N devem ser representados com chave estrangeira no lado \"N\".</p><p><strong>III.</strong> Atributos multivalorados devem sempre ser transformados em entidades no esquema relacional.</p><p><strong>Assinale a alternativa correta:</strong></p>",
       "opcoes": [
         "Apenas I",
         "Apenas II", 
@@ -1002,7 +1002,7 @@ export const quizData: QuizData = {
     },
     {
       "id": 72,
-      "pergunta": "Analise as afirmações sobre normalização de banco de dados:\n\nI. A Primeira Forma Normal (1NF) elimina grupos repetitivos e garante atomicidade dos atributos.\nII. A Segunda Forma Normal (2NF) elimina dependências parciais de chave primária composta.\nIII. A Terceira Forma Normal (3NF) elimina dependências transitivas entre atributos não-chave.\n\nAssinale a alternativa correta:",
+      "pergunta": "<p><strong>Analise as afirmações sobre normalização de banco de dados:</strong></p><p><strong>I.</strong> A Primeira Forma Normal (1NF) elimina grupos repetitivos e garante atomicidade dos atributos.</p><p><strong>II.</strong> A Segunda Forma Normal (2NF) elimina dependências parciais de chave primária composta.</p><p><strong>III.</strong> A Terceira Forma Normal (3NF) elimina dependências transitivas entre atributos não-chave.</p><p><strong>Assinale a alternativa correta:</strong></p>",
       "opcoes": [
         "Apenas I",
         "Apenas II",
@@ -1017,7 +1017,7 @@ export const quizData: QuizData = {
     },
     {
       "id": 73,
-      "pergunta": "Analise as afirmações sobre transações em banco de dados:\n\nI. Atomicidade garante que todas as operações de uma transação sejam executadas ou nenhuma seja executada.\nII. Consistência garante que a transação leve o banco de um estado válido para outro estado válido.\nIII. Isolamento garante que transações concorrentes não interfiram umas nas outras.\n\nAssinale a alternativa correta:",
+      "pergunta": "<p><strong>Analise as afirmações sobre transações em banco de dados:</strong></p><p><strong>I.</strong> Atomicidade garante que todas as operações de uma transação sejam executadas ou nenhuma seja executada.</p><p><strong>II.</strong> Consistência garante que a transação leve o banco de um estado válido para outro estado válido.</p><p><strong>III.</strong> Isolamento garante que transações concorrentes não interfiram umas nas outras.</p><p><strong>Assinale a alternativa correta:</strong></p>",
       "opcoes": [
         "Apenas I",
         "Apenas II",
@@ -1032,7 +1032,7 @@ export const quizData: QuizData = {
     },
     {
       "id": 74,
-      "pergunta": "Analise as afirmações sobre índices em banco de dados:\n\nI. Índices B-tree são eficientes para consultas de igualdade e range.\nII. Índices Hash são ideais para consultas de range e ordenação.\nIII. Índices compostos podem ser usados para consultas que envolvem múltiplas colunas.\n\nAssinale a alternativa correta:",
+      "pergunta": "<p><strong>Analise as afirmações sobre índices em banco de dados:</strong></p><p><strong>I.</strong> Índices B-tree são eficientes para consultas de igualdade e range.</p><p><strong>II.</strong> Índices Hash são ideais para consultas de range e ordenação.</p><p><strong>III.</strong> Índices compostos podem ser usados para consultas que envolvem múltiplas colunas.</p><p><strong>Assinale a alternativa correta:</strong></p>",
       "opcoes": [
         "Apenas I",
         "Apenas II",
@@ -1047,7 +1047,7 @@ export const quizData: QuizData = {
     },
     {
       "id": 75,
-      "pergunta": "Analise as afirmações sobre JOINs em SQL:\n\nI. INNER JOIN retorna apenas registros que têm correspondência em ambas as tabelas.\nII. LEFT JOIN retorna todos os registros da tabela à esquerda, mesmo sem correspondência.\nIII. FULL OUTER JOIN retorna todos os registros de ambas as tabelas, com NULLs onde não há correspondência.\n\nAssinale a alternativa correta:",
+      "pergunta": "<p><strong>Analise as afirmações sobre JOINs em SQL:</strong></p><p><strong>I.</strong> INNER JOIN retorna apenas registros que têm correspondência em ambas as tabelas.</p><p><strong>II.</strong> LEFT JOIN retorna todos os registros da tabela à esquerda, mesmo sem correspondência.</p><p><strong>III.</strong> FULL OUTER JOIN retorna todos os registros de ambas as tabelas, com NULLs onde não há correspondência.</p><p><strong>Assinale a alternativa correta:</strong></p>",
       "opcoes": [
         "Apenas I",
         "Apenas II",
@@ -1062,7 +1062,7 @@ export const quizData: QuizData = {
     },
     {
       "id": 76,
-      "pergunta": "Analise as afirmações sobre stored procedures:\n\nI. Stored procedures são pré-compilados e armazenados no servidor de banco de dados.\nII. Stored procedures podem retornar múltiplos conjuntos de resultados.\nIII. Stored procedures sempre executam mais rapidamente que consultas SQL equivalentes.\n\nAssinale a alternativa correta:",
+      "pergunta": "<p><strong>Analise as afirmações sobre stored procedures:</strong></p><p><strong>I.</strong> Stored procedures são pré-compilados e armazenados no servidor de banco de dados.</p><p><strong>II.</strong> Stored procedures podem retornar múltiplos conjuntos de resultados.</p><p><strong>III.</strong> Stored procedures sempre executam mais rapidamente que consultas SQL equivalentes.</p><p><strong>Assinale a alternativa correta:</strong></p>",
       "opcoes": [
         "Apenas I",
         "Apenas II",
@@ -1077,7 +1077,7 @@ export const quizData: QuizData = {
     },
     {
       "id": 77,
-      "pergunta": "Analise as afirmações sobre triggers em banco de dados:\n\nI. Triggers são executados automaticamente em resposta a eventos específicos.\nII. Triggers podem ser definidos para executar antes ou depois de operações DML.\nIII. Triggers podem modificar dados em outras tabelas durante sua execução.\n\nAssinale a alternativa correta:",
+      "pergunta": "<p><strong>Analise as afirmações sobre triggers em banco de dados:</strong></p><p><strong>I.</strong> Triggers são executados automaticamente em resposta a eventos específicos.</p><p><strong>II.</strong> Triggers podem ser definidos para executar antes ou depois de operações DML.</p><p><strong>III.</strong> Triggers podem modificar dados em outras tabelas durante sua execução.</p><p><strong>Assinale a alternativa correta:</strong></p>",
       "opcoes": [
         "Apenas I",
         "Apenas II",
@@ -1092,7 +1092,7 @@ export const quizData: QuizData = {
     },
     {
       "id": 78,
-      "pergunta": "Analise as afirmações sobre views em banco de dados:\n\nI. Views são consultas armazenadas que aparecem como tabelas virtuais.\nII. Views podem ser atualizáveis se atendem a certos critérios.\nIII. Views sempre melhoram a performance das consultas.\n\nAssinale a alternativa correta:",
+      "pergunta": "<p><strong>Analise as afirmações sobre views em banco de dados:</strong></p><p><strong>I.</strong> Views são consultas armazenadas que aparecem como tabelas virtuais.</p><p><strong>II.</strong> Views podem ser atualizáveis se atendem a certos critérios.</p><p><strong>III.</strong> Views sempre melhoram a performance das consultas.</p><p><strong>Assinale a alternativa correta:</strong></p>",
       "opcoes": [
         "Apenas I",
         "Apenas II",
@@ -1107,7 +1107,7 @@ export const quizData: QuizData = {
     },
     {
       "id": 79,
-      "pergunta": "Analise as afirmações sobre backup e recuperação:\n\nI. Backup completo copia todos os dados do banco de dados.\nII. Backup incremental copia apenas as mudanças desde o último backup.\nIII. Log shipping é uma técnica de alta disponibilidade que replica logs de transação.\n\nAssinale a alternativa correta:",
+      "pergunta": "<p><strong>Analise as afirmações sobre backup e recuperação:</strong></p><p><strong>I.</strong> Backup completo copia todos os dados do banco de dados.</p><p><strong>II.</strong> Backup incremental copia apenas as mudanças desde o último backup.</p><p><strong>III.</strong> Log shipping é uma técnica de alta disponibilidade que replica logs de transação.</p><p><strong>Assinale a alternativa correta:</strong></p>",
       "opcoes": [
         "Apenas I",
         "Apenas II",
@@ -1122,7 +1122,7 @@ export const quizData: QuizData = {
     },
     {
       "id": 80,
-      "pergunta": "Analise as afirmações sobre bancos de dados NoSQL:\n\nI. Document stores armazenam dados em formato semi-estruturado como JSON.\nII. Key-value stores são ideais para consultas complexas e relacionamentos.\nIII. Graph databases são otimizados para dados com relacionamentos complexos.\n\nAssinale a alternativa correta:",
+      "pergunta": "<p><strong>Analise as afirmações sobre bancos de dados NoSQL:</strong></p><p><strong>I.</strong> Document stores armazenam dados em formato semi-estruturado como JSON.</p><p><strong>II.</strong> Key-value stores são ideais para consultas complexas e relacionamentos.</p><p><strong>III.</strong> Graph databases são otimizados para dados com relacionamentos complexos.</p><p><strong>Assinale a alternativa correta:</strong></p>",
       "opcoes": [
         "Apenas I",
         "Apenas II",
@@ -1137,7 +1137,7 @@ export const quizData: QuizData = {
     },
     {
       "id": 81,
-      "pergunta": "Analise as afirmações sobre integridade referencial:\n\nI. Integridade referencial garante consistência entre tabelas relacionadas.\nII. Chaves estrangeiras são usadas para implementar integridade referencial.\nIII. CASCADE DELETE remove registros dependentes quando o registro pai é deletado.\n\nAssinale a alternativa correta:",
+      "pergunta": "<p><strong>Analise as afirmações sobre integridade referencial:</strong></p><p><strong>I.</strong> Integridade referencial garante consistência entre tabelas relacionadas.</p><p><strong>II.</strong> Chaves estrangeiras são usadas para implementar integridade referencial.</p><p><strong>III.</strong> CASCADE DELETE remove registros dependentes quando o registro pai é deletado.</p><p><strong>Assinale a alternativa correta:</strong></p>",
       "opcoes": [
         "Apenas I",
         "Apenas II",
@@ -1152,7 +1152,7 @@ export const quizData: QuizData = {
     },
     {
       "id": 82,
-      "pergunta": "Analise as afirmações sobre otimização de consultas:\n\nI. O otimizador de consultas escolhe o plano de execução mais eficiente.\nII. Índices podem melhorar significativamente a performance de consultas.\nIII. Consultas com SELECT * sempre são mais eficientes que especificar colunas.\n\nAssinale a alternativa correta:",
+      "pergunta": "<p><strong>Analise as afirmações sobre otimização de consultas:</strong></p><p><strong>I.</strong> O otimizador de consultas escolhe o plano de execução mais eficiente.</p><p><strong>II.</strong> Índices podem melhorar significativamente a performance de consultas.</p><p><strong>III.</strong> Consultas com SELECT * sempre são mais eficientes que especificar colunas.</p><p><strong>Assinale a alternativa correta:</strong></p>",
       "opcoes": [
         "Apenas I",
         "Apenas II",
@@ -1167,7 +1167,7 @@ export const quizData: QuizData = {
     },
     {
       "id": 83,
-      "pergunta": "Analise as afirmações sobre níveis de isolamento:\n\nI. READ UNCOMMITTED permite leitura de dados não confirmados.\nII. READ COMMITTED previne dirty reads mas permite non-repeatable reads.\nIII. SERIALIZABLE é o nível mais restritivo e previne todas as anomalias.\n\nAssinale a alternativa correta:",
+      "pergunta": "<p><strong>Analise as afirmações sobre níveis de isolamento:</strong></p><p><strong>I.</strong> READ UNCOMMITTED permite leitura de dados não confirmados.</p><p><strong>II.</strong> READ COMMITTED previne dirty reads mas permite non-repeatable reads.</p><p><strong>III.</strong> SERIALIZABLE é o nível mais restritivo e previne todas as anomalias.</p><p><strong>Assinale a alternativa correta:</strong></p>",
       "opcoes": [
         "Apenas I",
         "Apenas II",
@@ -1182,7 +1182,7 @@ export const quizData: QuizData = {
     },
     {
       "id": 84,
-      "pergunta": "Analise as afirmações sobre funções de agregação em SQL:\n\nI. COUNT(*) conta todos os registros, incluindo aqueles com valores NULL.\nII. SUM() ignora valores NULL ao calcular a soma.\nIII. AVG() calcula a média considerando apenas valores não-NULL.\n\nAssinale a alternativa correta:",
+      "pergunta": "<p><strong>Analise as afirmações sobre funções de agregação em SQL:</strong></p><p><strong>I.</strong> COUNT(*) conta todos os registros, incluindo aqueles com valores NULL.</p><p><strong>II.</strong> SUM() ignora valores NULL ao calcular a soma.</p><p><strong>III.</strong> AVG() calcula a média considerando apenas valores não-NULL.</p><p><strong>Assinale a alternativa correta:</strong></p>",
       "opcoes": [
         "Apenas I",
         "Apenas II",
@@ -1197,7 +1197,7 @@ export const quizData: QuizData = {
     },
     {
       "id": 85,
-      "pergunta": "Analise as afirmações sobre particionamento de tabelas:\n\nI. Particionamento horizontal divide uma tabela em partições baseadas em valores de colunas.\nII. Particionamento vertical divide uma tabela em colunas diferentes.\nIII. Particionamento pode melhorar a performance de consultas e manutenção.\n\nAssinale a alternativa correta:",
+      "pergunta": "<p><strong>Analise as afirmações sobre particionamento de tabelas:</strong></p><p><strong>I.</strong> Particionamento horizontal divide uma tabela em partições baseadas em valores de colunas.</p><p><strong>II.</strong> Particionamento vertical divide uma tabela em colunas diferentes.</p><p><strong>III.</strong> Particionamento pode melhorar a performance de consultas e manutenção.</p><p><strong>Assinale a alternativa correta:</strong></p>",
       "opcoes": [
         "Apenas I",
         "Apenas II",
